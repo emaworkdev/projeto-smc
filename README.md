@@ -129,6 +129,141 @@ sudo dpkg-reconfigure tzdata
   
    ```bash
 	
+git clone https://github.com/wppconnect-team/wppconnect-server.git
+	
+# Instalando Yarn
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+
+# Instalar yarn e nodejs
+sudo apt install yarn nodejs
+	
+	
+sudo apt-get install -y libxshmfence-dev libgbm-dev wget unzip fontconfig locales gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 lsb-release xdg-utils
+	
+wget -c https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo apt-get update
+
+sudo apt-get install libappindicator1
+
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+	
+# Instalar o pm2
+
+sudo npm install pm2@latest -g
+pm2 startup systemd
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u eduardo --hp /home/eduardo
+
+# Configurar arquivo config.json
+	
+vim wppcconnect-server/src/config.json
+	
+# modo de insert: pressionar a tecla shift+i
+ 	
+
+{
+  "secretKey": "THISISMYSECURETOKEN",    >>> colocar a sua ssecretKey
+  "host": "http://localhost",
+  "port": "21465",
+  "deviceName": "WppConnect",
+  "poweredBy": "WPPConnect-Server",
+  "startAllSession": true,
+  "tokenStoreType": "file",
+  "maxListeners": 15,
+  "customUserDataDir": "./userDataDir/",
+  "webhook": {
+    "url": null,       >>>> colocar a url server-dart
+    "autoDownload": true,
+    "uploadS3": false,
+    "readMessage": true,
+    "allUnreadOnStart": false,
+    "listenAcks": true,
+    "onPresenceChanged": true,
+    "onParticipantsChanged": true,
+    "onReactionMessage": true,
+    "onPollResponse": true,
+    "onRevokedMessage": true
+  },
+  "archive": {
+    "enable": false,
+    "waitTime": 10,
+    "daysToArchive": 45
+  },
+  "log": {
+    "level": "error",
+    "logger": ["console", "file"]
+  },
+  "createOptions": {
+    "browserArgs": [
+      "--disable-web-security",
+      "--no-sandbox",
+      "--disable-web-security",
+      "--aggressive-cache-discard",
+      "--disable-cache",
+      "--disable-application-cache",
+      "--disable-offline-load-stale-cache",
+      "--disk-cache-size=0",
+      "--disable-background-networking",
+      "--disable-default-apps",
+      "--disable-extensions",
+      "--disable-sync",
+      "--disable-translate",
+      "--hide-scrollbars",
+      "--metrics-recording-only",
+      "--mute-audio",
+      "--no-first-run",
+      "--safebrowsing-disable-auto-update",
+      "--ignore-certificate-errors",
+      "--ignore-ssl-errors",
+      "--ignore-certificate-errors-spki-list"
+    ]
+  },
+  "mapper": {
+    "enable": false,
+    "prefix": "tagone-"
+  },
+  "db": {
+    "mongodbDatabase": "tokens",
+    "mongodbCollection": "",
+    "mongodbUser": "",
+    "mongodbPassword": "",
+    "mongodbHost": "",
+    "mongoIsRemote": true,
+    "mongoURLRemote": "",
+    "mongodbPort": 27017,
+    "redisHost": "localhost",
+    "redisPort": 6379,
+    "redisPassword": "",
+    "redisDb": 0,
+    "redisPrefix": "docker"
+  }
+}
+	
+# para sair do modo insert
+# pressionar a tecla ESC
+# entrada de comando
+# pressionar a tecla :
+# para salvar e sair
+# digitar wq + ENTER	
+	
+# LIBERAR PORTA DO WPPCONNECT
+sudo iptables -A INPUT -p tcp --dport 21465 -j ACCEPT
+
+MOSTRAR PORTAS
+sudo netstat -t -l -p --numeric-ports
+	
+cd wppcconnect-server
+	
+yarn install
+
+yarn build
+
+pm2 start dist/server.js --name wppconnect
+pm2 save	
+	
+	
    ```   	
 	
 </details>
