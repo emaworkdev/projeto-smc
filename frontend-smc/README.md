@@ -17,6 +17,18 @@ cp ./projeto-smc/frontend-smc /var/www/html/app
 
 cd /var/www/html/app/
 
+
+# modo de insert: pressionar a tecla shift+i
+
+
+
+# para sair do modo insert
+# pressionar a tecla ESC
+# entrada de comando
+# pressionar a tecla :
+# para salvar e sair
+# digitar wq + ENTER
+
 ```
 
 ## Getting Started
