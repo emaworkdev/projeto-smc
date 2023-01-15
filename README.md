@@ -16,10 +16,10 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 
 <p align="left">
 	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
-	<span>Chat with us on Telegram: </span>
-	<a href="https://t.me/quepasa_api" target="_blank">Group</a>
+	<span>Telegram: </span>
+	<a href="https://t.me/ssem_api" target="_blank">Grupo</a>
 	<span> || </span>
-	<a href="https://t.me/quepasa_channel" target="_blank">Channel</a>
+	<a href="https://t.me/sem_channel" target="_blank">Canal</a>
 </p>
 
 <hr/>
