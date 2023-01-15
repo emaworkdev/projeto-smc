@@ -178,7 +178,7 @@ sudo dpkg-reconfigure tzdata
 <a href="https://www.digitalocean.com/?refcode=10cf6e2be6d4&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>
 
 <hr>
-
+	
 ### License
 
 [![License GNU AGPL v3.0](https://img.shields.io/badge/License-AGPL%203.0-lightgrey.svg)](https://github.com/sufficit/sufficit-quepasa-fork/blob/master/LICENSE.md)
