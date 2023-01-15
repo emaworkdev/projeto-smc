@@ -70,11 +70,10 @@ dart bin/server.dart
 
 # ctrl + C parar o teste
 
+# retrocede um diretorio
 cd ..
 
-# retrocede um diretorio
-
-# no diretorio projeto-smc
+# lista diretorio projeto-smc
 ls
 
 # vai encontrar um arquivo api_smc.sh
@@ -83,7 +82,6 @@ ls
 sh api_smc.sh
 
 # será criado um arquivo de log do serviço.
-
 
 sudo vim /etc/nginx/sites-available/<nome do servico>
 
