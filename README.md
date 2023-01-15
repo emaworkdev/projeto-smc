@@ -164,7 +164,7 @@ vim wppcconnect-server/src/config.json
  	
 
 {
-  "secretKey": "THISISMYSECURETOKEN",    >>> colocar a sua ssecretKey
+  "secretKey": "THISISMYSECURETOKEN",    >>> colocar a sua secretKey
   "host": "http://localhost",
   "port": "21465",
   "deviceName": "WppConnect",
