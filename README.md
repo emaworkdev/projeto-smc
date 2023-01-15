@@ -145,32 +145,34 @@ cd projeto-smc
 </details>
 
 <details>
-  <summary>Finalizando</summary>	
+  <summary>Finalizando</summary>
 	
-# Após tudo instalado
-# no navegador digitar
-https://<dominio smc front-en>
+  ```bash	
+	# Após tudo instalado
+	# no navegador digitar
+	https://<dominio smc front-en>
+
+	# apagar pastas não mais necessaria no servidor
+
+	sudo rm -R projeto-smc/backend-smc-laravel
+	sudo rm -R projeto-smc/frontend-smc
+
+	# Não apagar a pasta resources inteira pois nela tem 2 arquivos ainda necessario
+	  - db.txt
+	  - conversas.txt
+
+	sudo rm -R projeto-smc/resources/dart.png
+	sudo rm -R projeto-smc/resources/laravel.png
+	sudo rm -R projeto-smc/resources/flutter.png
+	sudo rm -R projeto-smc/resources/smc.png
+	sudo rm -R projeto-smc/resources/tela1.png
+	sudo rm -R projeto-smc/resources/tela2.png
+	sudo rm -R projeto-smc/resources/tela3.png
+	sudo rm -R projeto-smc/resources/tela4.png
+
+	sudo rm projeto-sm/README.md
+  ```
 	
-# apagar pastas não mais necessaria no servidor
-		
-sudo rm -R projeto-smc/backend-smc-laravel
-sudo rm -R projeto-smc/frontend-smc
-		
-# Não apagar a pasta resources inteira pois nela tem 2 arquivos ainda necessario
-  - db.txt
-  - conversas.txt
-		  
-sudo rm -R projeto-smc/resources/dart.png
-sudo rm -R projeto-smc/resources/laravel.png
-sudo rm -R projeto-smc/resources/flutter.png
-sudo rm -R projeto-smc/resources/smc.png
-sudo rm -R projeto-smc/resources/tela1.png
-sudo rm -R projeto-smc/resources/tela2.png
-sudo rm -R projeto-smc/resources/tela3.png
-sudo rm -R projeto-smc/resources/tela4.png
-		
-sudo rm projeto-sm/README.md
-		
 </details>
 
 <hr>
