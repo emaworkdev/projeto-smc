@@ -88,6 +88,11 @@ php artisan config:clear && php artisan config:cache && php artisan cache:clear 
 
 php artisan config:cache && php artisan config:clear
 
+php artisan
+
+vim /var/www/html/api-smc-laravel/app/Console/Kernel.php
+
+
 sudo crontab -e
 
 # modo de insert: pressionar a tecla shift+i
