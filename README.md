@@ -174,6 +174,7 @@ sudo dpkg-reconfigure tzdata
 	sudo rm -R projeto-smc/resources/tela2.png
 	sudo rm -R projeto-smc/resources/tela3.png
 	sudo rm -R projeto-smc/resources/tela4.png
+	sudo rm -R projeto-smc/resources/donate.png
 
 	sudo rm projeto-sm/README.md
   ```
