@@ -13,7 +13,7 @@
 
 ```bash
 
-cp -R ./projeto-smc/frontend-smc/build/web  /var/www/html/app/
+cp -R ./projeto-smc/frontend-smc/build/web  /var/www/html/app/web/
 
 cd /var/www/html/app/web/assets/assets/dir
 
