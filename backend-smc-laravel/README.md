@@ -44,7 +44,7 @@ sudo chown -R www-data:www-data /var/www/html/
 sudo chmod -R 755 /var/www/html/
 
 
-cp ./projeto-smc/backend-smc-laravel /var/www/html/api-smc-laravel
+cp -R ./projeto-smc/backend-smc-laravel /var/www/html/api-smc-laravel
 
 cd /var/www/html/api-smc-laravel 
 
