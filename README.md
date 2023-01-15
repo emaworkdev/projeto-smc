@@ -174,7 +174,7 @@ vim wppcconnect-server/src/config.json
   "maxListeners": 15,
   "customUserDataDir": "./userDataDir/",
   "webhook": {
-    "url": null,       >>>> colocar a url server-dart
+    "url": null,       >>>> https:// <colocar o dominio server-dart> /api/webhooks
     "autoDownload": true,
     "uploadS3": false,
     "readMessage": true,
