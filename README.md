@@ -258,7 +258,7 @@ sudo iptables -A INPUT -p tcp --dport 21465 -j ACCEPT
 MOSTRAR PORTAS
 sudo netstat -t -l -p --numeric-ports
 	
-cd wppcconnect-server
+cd wppconnect-server
 	
 yarn install
 
