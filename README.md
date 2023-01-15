@@ -266,7 +266,9 @@ yarn build
 
 pm2 start dist/server.js --name wppconnect
 pm2 save	
-	
+
+pm2 list
+pm2 logs 0	
 	
    ```   	
 	
