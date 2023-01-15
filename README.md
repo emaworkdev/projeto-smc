@@ -146,6 +146,7 @@ cd projeto-smc
 
 <details>
   <summary>Finalizando</summary>	
+	
 	  ```bash
                 Após tudo instalado
 		no navegador digitar
@@ -171,7 +172,6 @@ cd projeto-smc
 		
 		sudo rm projeto-sm/README.md
 		
-
 	```	
 </details>
 
