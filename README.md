@@ -23,6 +23,10 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 
 ```bash
 
+git clone https://github.com/emaworkdev/projeto-smc.git
+
+# Acertar data e fuzo horario se necessario
+
 sudo apt update
 
 # Configurando o Locale pt_BR no Ubuntu
@@ -64,11 +68,6 @@ sudo dpkg-reconfigure tzdata
 # Note que o -u faz o sistema mostrar a data sem o TimeZone aplicado.
 
 # REINICIAR MAQUINA
-
-git clone https://github.com/emaworkdev/projeto-smc.git
-
-cd projeto-smc
-
 
 ```
 
