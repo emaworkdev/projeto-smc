@@ -124,8 +124,13 @@ sudo dpkg-reconfigure tzdata
 <details>
   <summary>2) - Instalando WPPConnectServer</summary>
   <p align="left">
-     <span>siga os procedimentos de instalação do <a target="_blank" href="https://github.com/wppconnect-team/wppconnect-server">wppcconnect-server</a>.</span>
+     <span>siga os procedimentos de instalação do <a target="_blank" href="https://github.com/wppconnect-team/wppconnect-server">wppcconnect-server</a>.     </span>
   </p>
+  
+   ```bash
+	
+   ```   	
+	
 </details>
 
 <details>
