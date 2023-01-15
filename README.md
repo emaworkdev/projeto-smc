@@ -194,7 +194,7 @@ Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualq
 
 ### Curtiu? Pague-me um café!! Segue QR code (PIX)  
 
-[<img src="donate.jpeg" height="150" width="200"/>](https://pix.gerencianet.com.br/pagar/d4f158c9c78cccacbb8f43f2997711a592517eca.html)
+[<img src="donate.jpeg" height="150" width="200"/>](https://github.com/emaworkdev/projeto-smc/blob/master/resources/donate.png)
 	
 <hr>	
 	
