@@ -148,8 +148,7 @@ cd projeto-smc
   <summary>Finalizando</summary>
 	
   ```bash	
-	# Após tudo instalado
-	# no navegador digitar
+	# Após tudo instalado digitar no navegador 
 	https://<dominio smc front-en>
 
 	# apagar pastas não mais necessaria no servidor
