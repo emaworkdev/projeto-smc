@@ -179,6 +179,18 @@ sudo dpkg-reconfigure tzdata
 
 <hr>
 	
+## FIQUE ATENTO
+
+Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualquer forma oficialmente ligado à WhatsApp, ou a qualquer uma das suas filiais ou afiliadas. O website oficial da WhatsApp pode ser encontrado em <https://whatsapp.com>. "WhatsApp", bem como nomes, marcas, emblemas e imagens relacionadas são marcas registadas dos seus respectivos proprietários.
+
+--------------------------
+
+### Curtiu? Pague-me um café!! Segue QR code (PIX)  
+
+[<img src="donate.jpeg" height="150" width="200"/>](donate.jpeg)
+	
+<hr>	
+	
 ### License
 
 [![License GNU AGPL v3.0](https://img.shields.io/badge/License-AGPL%203.0-lightgrey.svg)](https://github.com/sufficit/sufficit-quepasa-fork/blob/master/LICENSE.md)
