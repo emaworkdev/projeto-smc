@@ -137,10 +137,11 @@ cd projeto-smc
 </details>
 
 <details>
-  <summary>5) - Instalando o fronten Flutter</summary>
+  <summary>5) - Instalando o fronten Flutter</summary>	
   <p align="left">
-     <span>siga os procedimentos de instalação do <a target="_blank" href="https://github.com/wppconnect-team/wppconnect-server">wppcconnect-server</a>.</span>
+       <span>github: <a target="_blank" href="https://github.com/emaworkdev/projeto-smc/tree/master/frontend-smc">frontend-scm</a>.</span>
   </p>
+
 </details>
 
 <hr>
