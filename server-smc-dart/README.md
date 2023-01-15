@@ -38,9 +38,90 @@ dart pub get
 
 cp .env.example .env
 
+vim .env
 
+# modo de insert: pressionar a tecla shift+i
+# alterar 
+
+port=8081
+
+secretKey = "secret" # secret key do arquivo config.json do wpp-connect-serve
+wppConnectHost="http://ip:porta/api" >>>> ip e porta da maquina onde está instalado o wppcconnet-server
+urlWebhookAlvo="http://<seu dominio server-dart>/webhooks/"
+urlWebhookClient="http://<seu dominio server-dart>/webhooks/secunds"                
+
+hasuraHost="http://<seu dominio hasura>/v1/graphql"
+hasuraPassword="senha hasura"
+
+urlFrontEnd="<url do front-end> ou * para local"
+
+
+# para sair do modo insert
+# pressionar a tecla ESC
+# entrada de comando
+# pressionar a tecla :
+# para salvar e sair
+# digitar wq + ENTER
 
 
 dart bin/server.dart
+
+# vai printar na tela htt://localhost:8081
+
+# ctrl + C parar o teste
+
+cd ..
+
+# retrocede um diretorio
+
+# no diretorio projeto-smc
+ls
+
+# vai encontrar um arquivo api_smc.sh
+# para subir o serviço server-smc-dart
+
+sh api_smc.sh
+
+# será criado um arquivo de log do serviço.
+
+
+sudo vim /etc/nginx/sites-available/<nome do servico>
+
+# modo de insert: pressionar a tecla shift+i
+# copiar esse scrypt abaixo 
+# exemplo.com trocar pelo dominio do server-smc-dart
+# <porta> troccar pela porta do serviço server-smc-dart configurado no arquivo .env
+
+server {
+  listen 80;
+ 
+  root /var/www/html;	
+
+  server_name example.com;
+
+  location / {
+    proxy_pass http://localhost:<porta>;
+    proxy_http_version 1.1;           
+  }
+
+}
+
+# para sair do modo insert
+# pressionar a tecla ESC
+# entrada de comando
+# pressionar a tecla :
+# para salvar e sair
+# digitar wq + ENTER
+
+sudo service nginx restart && sudo service nginx reload && sudo nginx -t
+
+sudo ln -s /etc/nginx/sites-available/<nome servico> /etc/nginx/sites-enabled/
+
+sudo systemctl restart nginx.service
+
+sudo certbot --nginx -d <dominio do server-smc-dart>
+
+sudo service nginx reload
+
 
 ```
