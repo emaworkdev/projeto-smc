@@ -29,7 +29,7 @@ echo 'export PATH="$PATH:/usr/lib/dart/bin"' >> ~/.profile
 
 dart --version
 
-cd projeto-smc/erver-smc-dart
+cd projeto-smc/server-smc-dart
 
 # na pasta raiz do projeto
 # baixar as dependências
