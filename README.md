@@ -147,7 +147,7 @@ cd projeto-smc
 <details>
   <summary>Finalizando</summary>	
 	
-	  ```bash
+	  ```
                 Após tudo instalado
 		no navegador digitar
 		https://<dominio smc front-en>
