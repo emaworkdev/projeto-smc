@@ -83,6 +83,12 @@ sh api_smc.sh
 
 # será criado um arquivo de log do serviço.
 
+# para ver oss serviços dart
+ps aux | grep dart
+
+# para terminar um serviço
+kill -9 <nro pid>
+
 sudo vim /etc/nginx/sites-available/<nome do servico>
 
 # modo de insert: pressionar a tecla shift+i
