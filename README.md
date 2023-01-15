@@ -160,7 +160,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 sudo npm install pm2@latest -g
 pm2 startup systemd
-sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u eduardo --hp /home/eduardo
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u root --hp /home/root
 
 # Configurar arquivo config.json
 	
