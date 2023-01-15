@@ -48,6 +48,11 @@ cp ./projeto-smc/backend-smc-laravel /var/www/html/api-smc-laravel
 
 cd /var/www/html/api-smc-laravel 
 
+sudo chmod 777 -R storage
+sudo chmod 777 -R storage/*
+sudo chmod 777 -R app
+
+
 composer update
 
 cp .env.example .env
