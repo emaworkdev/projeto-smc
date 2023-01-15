@@ -13,6 +13,17 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
   
 <hr>
 
+
+<p align="left">
+	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
+	<span>Chat with us on Telegram: </span>
+	<a href="https://t.me/quepasa_api" target="_blank">Group</a>
+	<span> || </span>
+	<a href="https://t.me/quepasa_channel" target="_blank">Channel</a>
+</p>
+
+<hr/>
+
 # SMC Instalação video
 
   [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=mSNIRT6-WQ0&t=90s)
