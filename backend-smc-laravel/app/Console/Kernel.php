@@ -39,6 +39,7 @@ class Kernel extends ConsoleKernel
     {
 
         //$schedule->command('teste:comando')->everyMinute();
+        $schedule->command('disparos:smc')->everyMinute();
     }
 
     /**
