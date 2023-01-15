@@ -1,0 +1,15 @@
+port=8080
+
+secretKey = "secret" # secret key do arquivo config.json do wpp-connect-serve
+wppConnectHost="http://ip:porta/api"
+urlWebhookAlvo="http://ip:porta/webhooks/"
+urlWebhookClient="http://ip:porta/webhooks/secunds"                
+
+hasuraHost="http://ip:porta/v1/graphql"
+hasuraPassword="senha"
+
+
+urlFrontEnd="<url do front-end> ou * para local"
+
+jwt_secret=S49GxqJ2iYVGyxNwsYo04sftxTuPH8QDPcDFStE47G3zTzU0Bc
+

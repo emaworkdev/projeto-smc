@@ -1,0 +1,3 @@
+class UserNotfoundException implements Exception {
+
+}

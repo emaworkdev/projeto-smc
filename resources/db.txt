@@ -1,0 +1,62 @@
+CREATE TABLE smc."questions" (
+	id serial4 NOT NULL,
+	"name" varchar(255) NULL
+);
+
+CREATE TABLE smc."users" (
+	id serial4 NOT NULL,
+	"name" varchar(255) NOT NULL,
+    	email varchar(255) NOT NULL,
+	"password" varchar(255) NOT NULL,
+	"createdAt" timestamp with time zone NULL DEFAULT statement_timestamp(),
+        "updatedAt" timestamp with time zone NULL DEFAULT statement_timestamp(),
+	CONSTRAINT "users_email_key" UNIQUE (email),
+	CONSTRAINT "users_pkey" PRIMARY KEY (id)
+);
+
+CREATE TABLE smc."shots" (
+	id serial4 PRIMARY KEY NOT NULL,
+	"name" varchar(255) NULL,
+        "namecli" varchar(255) NULL,
+        "datestart" text NULL,
+        "datefinalize" text NULL,
+        "start" bool NOT NULL DEFAULT false,
+	"finished" bool NOT NULL DEFAULT false,
+        "control" bool NOT NULL DEFAULT false,
+        "alvo" int4 NOT NULL DEFAULT 0,
+        "client" int4 NOT NULL DEFAULT 0,
+	"createdAt" timestamp without time zone NULL DEFAULT statement_timestamp()
+);
+
+CREATE TABLE smc."settings" (
+        id serial4 PRIMARY KEY NOT NULL,
+        "description" varchar(255) NULL,
+        "key" varchar(255) NULL,
+        "value" bool NOT NULL DEFAULT false,
+        "content" text null,
+	"createdAt" timestamp without time zone NULL DEFAULT statement_timestamp(),
+        "updatedAt" timestamp without time zone NULL DEFAULT statement_timestamp()
+);
+
+CREATE TABLE smc."whatsapps" (
+	id serial4 NOT NULL,
+        "session" text NULL,
+        "number" varchar(14) NOT NULL,
+	qrcode text NULL,
+	status varchar(255) NULL,
+	battery varchar(255) NULL,
+	plugged bool NULL,
+	"name" varchar(255) NOT NULL,
+	"isDefault" bool NOT NULL DEFAULT false,
+	retries int4 NOT NULL DEFAULT 0,
+        token text NULL,
+        "createdAt" timestamp without time zone NULL DEFAULT statement_timestamp(),
+        "updatedAt" timestamp without time zone NULL DEFAULT statement_timestamp(),
+	CONSTRAINT "Whatsapps_name_key" UNIQUE (name),
+	CONSTRAINT "Whatsapps_pkey" PRIMARY KEY (id)
+);
+
+
+INSERT INTO smc.users (id, name, email, password) VALUES (1,'admin', 'admin@user.com', '2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b');
+INSERT INTO smc.settings (id, description, key, value, content) VALUES (1,'Intervalo de Tempo Inicial', 'timeOn', true, 60);
+INSERT INTO smc.settings (id, description, key, value, content) VALUES (2,'Intervalo de Tempo Final', 'timeOff', true, 300);

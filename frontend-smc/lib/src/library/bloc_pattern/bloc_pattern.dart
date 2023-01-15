@@ -1,0 +1,11 @@
+export 'package:smc/src/library/bloc_pattern/lib/dependency.dart';
+export 'package:smc/src/library/bloc_pattern/lib/bloc.dart';
+export 'package:smc/src/library/bloc_pattern/lib/core.dart';
+export 'package:smc/src/library/bloc_pattern/lib/bloc_base.dart';
+export 'package:smc/src/library/bloc_pattern/lib/bloc_provider.dart';
+export 'package:smc/src/library/bloc_pattern/lib/inject.dart';
+export 'package:smc/src/library/bloc_pattern/lib/disposable.dart';
+export 'package:smc/src/library/bloc_pattern/lib/consumer.dart';
+export 'package:smc/src/library/bloc_pattern/lib/module.dart';
+export 'package:smc/src/library/bloc_pattern/lib/bloc_provider_error.dart';
+export 'package:smc/src/library/bloc_pattern/lib/consumer_module.dart';
