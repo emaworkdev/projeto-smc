@@ -7,13 +7,6 @@ SMC é um programa que sincroniza dois perfis de Whatsapp e conversa automatica
 cria status no chip, para deixar o mais real possível e aquece os seus números de chips do whatsapp para que possam ser usados em campanhas de marketing, quem envia muitos disparos pelo whatsapp sabe que está sujeito a bloqueios e isso acontece muito mais fácil se o numero não for maturado.
 
 <hr>
-# Apresentação do SMC video
-
-  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=t81rsBqK6iM)
-  
-<hr>
-
-
 <p align="left">
 	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
 	<span>Telegram: </span>
@@ -22,8 +15,11 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 	<a href="https://t.me/sem_channel" target="_blank">Canal</a>
 </p>
 
-<hr/>
+<hr>
+# Apresentação do SMC video
 
+  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=t81rsBqK6iM)
+  
 # SMC Instalação video
 
   [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=mSNIRT6-WQ0&t=90s)
