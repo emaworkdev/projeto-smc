@@ -2,7 +2,7 @@
 
 namespace App\Http\Service;
 
-class GraphqlsettingsService
+class GraphqlSettingsService
 {
     function findBy()
     {
