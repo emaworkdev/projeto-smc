@@ -24,7 +24,7 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
   [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=kxnjgEkYtn0)
   
 # Instalação parte 2 video
-  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=kxnjgEkYtn0)  
+  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=b8yalnmlKOs)  
 
 <hr>
 
