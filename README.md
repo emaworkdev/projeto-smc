@@ -20,9 +20,11 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 
   [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=t81rsBqK6iM)
   
-# SMC Instalação video
-
-  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=mSNIRT6-WQ0&t=90s)
+# SMC Instalação parte 1 video
+  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=kxnjgEkYtn0)
+  
+# SMC Instalação parte 2 video
+  [![Demo Doccou alpha](https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/youtube_video.png)](https://www.youtube.com/watch?v=kxnjgEkYtn0)  
 
 <hr>
 
