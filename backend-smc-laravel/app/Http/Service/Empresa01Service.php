@@ -10,7 +10,7 @@ class Empresa01Service
     {
         $graphShot = new GraphqlShotsService();
         $graphQuestion = new GraphqlQuestionsService();
-        $graphSetting = new GraphqlsettingsService();
+        $graphSetting = new GraphqlSettingsService();
         $graphWhats = new GraphqlWhatsappsService();
         $http = new ClienteHttp();
         $funcao = new FunctionsLibrary();
