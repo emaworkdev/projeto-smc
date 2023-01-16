@@ -10,7 +10,7 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 <p align="left">
 	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
 	<span>Telegram: </span>
-	<a href="https://t.me/emawork_smc" target="_blank">Grupo</a>
+	<a href="https://t.me/emaworkdevsmc" target="_blank">Grupo</a>
 	<span> || </span>
 	<a href="https://t.me/emawork_smc" target="_blank">Canal</a>
 </p>
