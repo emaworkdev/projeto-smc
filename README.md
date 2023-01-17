@@ -11,11 +11,11 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 <span>Estámos elaborado um curso sobre SMC multi-tenanty</span>
 
 <p align="left">
-	<span>Área Aministrativa</span>
-	<span>Área do Cliente</span>
-	<span>Página de planos (vendas)</span>
-	<span>SMC</span>
-	<span>Integração com PIX</span>
+   - Área Aministrativa
+   - Área do Cliente
+   - Página de planos (vendas)
+   - SMC
+   - Integração com PIX
 </p>
 
 <span>será feito do zero até o deploy.</span>
