@@ -21,7 +21,7 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 	<span>será feito do zero até o deploy.</span>
 	<span>entre na página da emawork.dev e se increva-se, para receber notificação, do pré-lançamento</span>	
 	<a href="https://emawork.dev" target="_blank">EmaWork.dev</a>
-	<img src="https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/banner-smc.png" alt="emawork.dev" width="900" heigth="300" />
+	<img src="https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/banner-smc.png" alt="emawork.dev" width="650" heigth="300" />
 
 </p>
 
