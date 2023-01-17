@@ -11,7 +11,7 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 <span>Estámos elaborado um curso sobre SMC multi-tenanty</span>
 
 ```bash
-   - Área Aministrativa
+   - Área Administrativa
    - Área do Cliente
    - Página de planos (vendas)
    - SMC
