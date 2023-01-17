@@ -10,11 +10,13 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 
 <span>Estámos elaborado um curso sobre SMC multi-tenanty</span>
 
-<span>Área Aministrativa</span>
-<span>Área do Cliente</span>
-<span>Página de planos (vendas)</span>
-<span>SMC</span>
-<span>Integração com PIX</span>
+<p align="left">
+	<span>Área Aministrativa</span>
+	<span>Área do Cliente</span>
+	<span>Página de planos (vendas)</span>
+	<span>SMC</span>
+	<span>Integração com PIX</span>
+</p>
 
 <span>será feito do zero até o deploy.</span>
 <span>entre na página da emawork.dev e se increva-se, para receber notificação, do pré-lançamento</span>	
