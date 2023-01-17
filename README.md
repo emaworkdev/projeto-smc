@@ -7,6 +7,26 @@ SMC é um programa que sincroniza dois perfis de Whatsapp e conversa automatica
 cria status no chip, para deixar o mais real possível e aquece os seus números de chips do whatsapp para que possam ser usados em campanhas de marketing, quem envia muitos disparos pelo whatsapp sabe que está sujeito a bloqueios e isso acontece muito mais fácil se o numero não for maturado.
 
 <hr>
+
+<p align="left">
+	
+	<span>Estámos elaborado um curso sobre SMC multi-tenanty</span>
+	
+	# Área Aministrativa
+	# Área do Cliente
+	# Página de planos (vendas)
+	# SMC
+	# Integração com PIX
+	
+	<span>será feito do zero até o deploy.</span>
+	<span>entre na página da emawork.dev e se increva-se, para receber notificação, do pré-lançamento</span>	
+	<a href="https://emawork.dev" target="_blank">EmaWork.dev</a>
+	<img src="https://bucket-emawork.nyc3.digitaloceanspaces.com/emawork_com/banners/banner-smc.png" alt="emawork.dev" width="900" heigth="300" />
+
+</p>
+
+<hr>
+
 <p align="left">
 	<img src="https://telegram.org/favicon.ico" alt="Telegram-logo" width="32" />
 	<span>Telegram: </span>
