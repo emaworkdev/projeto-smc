@@ -19,7 +19,8 @@ cria status no chip, para deixar o mais real possível e aquece os seus números
 ```
 
 <span>será feito do zero até o deploy.</span>
-<span>entre na página da emawork.dev e se increva-se, para receber notificação, do pré-lançamento</span>	
+
+<span>entre na página da emawork.dev e se inscreva-se, você receberá uma notificação, quando o curso estiver para ser lançamento.</span>	
 
 <a href="https://emawork.dev" target="_blank">EmaWork.dev</a>
 
