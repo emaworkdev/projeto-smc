@@ -364,7 +364,7 @@ pm2 logs 0
 	
 <hr>
 
-<a href="https://hetzner.cloud/?ref=1zNyFFrdsCVI"><img src="/build/images/logo-hetzner-online.a4d06e5f6960b8dbaaf5481dc82b6789.svg" alt="Hetzner" /></a>
+<a href="https://hetzner.cloud/?ref=1zNyFFrdsCVI"><img src="https://accounts.hetzner.com/build/images/logo-hetzner-online.a4d06e5f6960b8dbaaf5481dc82b6789.svg" alt="Hetzner" /></a>
 
 <hr>	
 	
