@@ -362,6 +362,12 @@ pm2 logs 0
 
 <hr>
 	
+<hr>
+
+<a href="https://hetzner.cloud/?ref=1zNyFFrdsCVI"><img src="/build/images/logo-hetzner-online.a4d06e5f6960b8dbaaf5481dc82b6789.svg" alt="Hetzner" /></a>
+
+<hr>	
+	
 ## FIQUE ATENTO
 
 Este projeto não é afiliado, associado, autorizado, endossado por, ou de qualquer forma oficialmente ligado à WhatsApp, ou a qualquer uma das suas filiais ou afiliadas. O website oficial da WhatsApp pode ser encontrado em <https://whatsapp.com>. "WhatsApp", bem como nomes, marcas, emblemas e imagens relacionadas são marcas registadas dos seus respectivos proprietários.
