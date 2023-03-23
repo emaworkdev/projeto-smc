@@ -356,9 +356,8 @@ pm2 logs 0
 	
 </details>
 	
-<hr>	
-# PRECISA DE UM SERVIDOR?
-<hr>	
+
+## PRECISA DE UM SERVIDOR?
 
 <hr>
 
