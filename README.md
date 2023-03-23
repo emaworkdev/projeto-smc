@@ -358,13 +358,13 @@ pm2 logs 0
 
 <hr>
 
-<a href="https://www.digitalocean.com/?refcode=10cf6e2be6d4&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>
+<a target="_blank" href="https://www.digitalocean.com/?refcode=10cf6e2be6d4&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%202.svg" alt="DigitalOcean Referral Badge" /></a>
 
 <hr>
 	
 <hr>
 
-<a href="https://hetzner.cloud/?ref=1zNyFFrdsCVI"><img src="https://accounts.hetzner.com/build/images/logo-hetzner-online.a4d06e5f6960b8dbaaf5481dc82b6789.svg" alt="Hetzner" /></a>
+<a target="_blank" href="https://hetzner.cloud/?ref=1zNyFFrdsCVI" ><img src="https://accounts.hetzner.com/build/images/logo-hetzner-online.a4d06e5f6960b8dbaaf5481dc82b6789.svg" height="100" width="200" alt="Hetzner" /></a>
 
 <hr>	
 	
