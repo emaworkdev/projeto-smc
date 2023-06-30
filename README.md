@@ -191,7 +191,7 @@ sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -
 
 # Configurar arquivo config.json
 	
-vim /root/wppconnect-server/src/config.json
+vim /root/wppconnect-server/src/config.ts
 	
 # modo de insert: pressionar a tecla shift+i
  	
