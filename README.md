@@ -169,7 +169,7 @@ sudo apt update
 sudo apt install yarn
 
 # Instalar o Node
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 node -v
 npm -v
