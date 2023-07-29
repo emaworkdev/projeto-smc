@@ -318,7 +318,7 @@ pm2 logs 0
 </details>
 
 <details>
-  <summary>5) - Instalando o fronten Flutter</summary>	
+  <summary>5) - Instalando o frontend Flutter</summary>	
   <p align="left">
        <span>github: <a target="_blank" href="https://github.com/emaworkdev/projeto-smc/tree/master/frontend-smc">frontend-scm</a>.</span>
   </p>
