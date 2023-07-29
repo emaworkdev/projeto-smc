@@ -72,6 +72,13 @@ sudo certbot --nginx -d <dominio do smc front-end>
 
 sudo service nginx reload
 
+OK,    agora vamos acessar o sistema
+
+https://<seu dominio>
+
+login:   admin@user.com
+senha:   secret
+
 ```
 
 ## Getting Started
